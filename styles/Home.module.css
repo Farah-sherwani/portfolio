@@ -1,3 +1,37 @@
+
+.footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding:2px;
+
+}
+.Navbar{
+  overflow:hidden;
+  background-color:#0e0d0d;
+  }
+  .Navbar a{
+  float: right;
+  display: flex;
+  color: rgb(251, 251, 251);
+  text-align:center;
+  padding: 100px 15px;
+  text-decoration: none;
+  }
+  .Navbar a:hover {
+  
+  color: #c0f407;
+  }
+
+
+.button {
+  color:aqua;
+  background-color: chocolate;
+}
+
+
+
+
 .main {
   display: flex;
   flex-direction: column;
@@ -47,11 +81,13 @@
 }
 
 .card {
+  color: #5c3de6;
   padding: 1rem 1.2rem;
   border-radius: var(--border-radius);
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(var(--card-border-rgb), 0);
   transition: background 200ms, border 200ms;
+  background-color: coral;
 }
 
 .card span {
